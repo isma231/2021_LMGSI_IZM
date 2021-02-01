@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+	<languaje>es-Es</languaje>
+	<channel>
+		<title>LMSI - RSS - Ismael Zanfaño Merino</title>
+		<copyright>Ismael Zanfaño Merino</copyright>
+		<url>192.168.2.118</url>
+		<description>Este rss pertenece a la pagina de Ismael Zanfaño Merino</description>
+		<skipDays>
+			<day>Saturday</day>
+			<day>Sunday</day>
+		</skipDays>
+		<skipHour>
+			<hour>1</hour>
+			<hour>2</hour>
+			<hour>3</hour>
+			<hour>4</hour>
+			<hour>5</hour>
+			<hour>6</hour>
+			<hour>7</hour>
+			<hour>8</hour>
+		</skipHour>
+		<item>
+			<title>Practica 1</title>
+			<link>http://192.168.2.118/../ud02/01/index.html"</link>
+			<description>
+			<![CDATA[
+				<h2>Pagina web Deportes</h2>
+				<p>En esta practica realizaremos la creacion de una pagina web sobre deportes</p>
+			]]>
+			</description>
+		</item>
+		<item>
+			<title>Practica 2</title>
+			<link>http://192.168.2.118/../ud02/01/index.html</link>
+			<description>
+			<![CDATA[
+				<h2>Trabajo con tablas.</h2>
+				<p>En esta practica realizaremos una tabla en la cual compararemos dos reproductores de musica</p>
+			]]>
+			</description>
+		</item>
+		<item>
+			<title>Practica 3</title>
+			<link>http://192.168.2.118/../ud02/03/index.html</link>
+			<description>
+			<![CDATA[
+				<h2>Horario</h2>
+				<p>En eta practica realizaremos con HTML y CSS la creación de un horario</p>
+			]]>
+			</description>
+		</item>
+	</channel>
+</rss>
