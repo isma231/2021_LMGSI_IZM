@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+	<fecha>
+		<dia>26</dia>
+		<mes>01</mes>
+		<anyo>2020</anyo>
+	</fecha>
+	<remitente>isma231@gmail.com</remitente>
+	<destinatario>
+		<correo>usuario@jcyl.es</correo>
+	</destinatario>
+	<destinatario>
+		<correo>usuario1@jcyl.es</correo>
+	</destinatario>
+	<asunto>Hallowen</asunto>
+	<mensaje> A las 15:00h en ...</mensaje>
+	<adjuntos>
+            <image>
+                <tipo>image/png</tipo>
+                <nombre>foto1.png</nombre>
+            </image>
+            <image>
+                <tipo>image/png</tipo>
+				<nombre>foto2.png</nombre>
+            </image>
+	</adjuntos>
+</mail>
