@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE grupo [
+	<!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT grupo (estudiante+)>
+    <!ELEMENT estudiante (nombre, cod*)>
+    
+    
+]>
+<grupo>
+    <estudiante cod="E1" idref="E2 E3">
+        <nombre>Fran</nombre>
+    </estudiante>
+    <estudiante cod="E2" idref="E2 E3">
+        <nombre>Fran dos</nombre>
+    </estudiante>
+    <estudiante cod="E3" idref="E2 E3">
+        <nombre>Fran tres</nombre>
+    </estudiante>
+</grupo>
