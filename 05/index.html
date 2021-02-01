@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Creado por Ismael Zanfaño Merino -->
+<!-- Fecha: 27/10/2020 -->
+	<html lang="es">
+		<head>
+			<link rel="icon" href="../../images/logo.ico">
+			<meta charset="utf-8"/>
+			<meta name="Realizacion de una plantilla de formulario" content="valor metadato">
+			<meta name="Ismael Zanfaño Merino" content="valor metadato">
+			<title> HTML 04 Ismael Zanfaño Merino</title>
+		</head>
+			<body>
+				<header>
+					<h1 style="text-align:center">PLANTILLA FORMULARIO AGRICULTURA</h1>
+				</header>
+				<main>
+					<form action="registro.php" method="GET">
+						<fieldset style="background-color: #BBBBBB">
+						<legend style="border: 1px solid black; background-color: white">Datos Personales</legend>
+							<table>
+								<tr>
+									<td><label for="Nombre">Nombre:</label></td>
+									<td><label for="Apellidos">Apellidos:</label></td>
+									<td><label for="Correo">Correo electronico</label></td>
+									<td><label for="Password">Contraseña</label></td>
+									<td><label for="Fecha">Lugar y Fecha de compra</label></td>
+								</tr>
+								<tr>
+									<td><input name="Nombre" type="text" id="Nombre"></td>
+									<td><input name="Apellidos" type="text" id="Apellidos"></td>
+									<td><input name="Correo" type="email" id="Correo" placeholder="nombre@correo.es"></td>
+									<td><input name="Contraseña" type="password" id="Contraseña"></td>
+									<td><input type="date" name="Fecha" id="Fecha"></td>
+								</tr>
+							</table>
+						</fieldset>
+						<fieldset style="background-color: rgb(241, 194, 156)">
+						<legend style="border: 1px solid black; background-color: white">Agricultura</legend>
+							<table>
+								<tr>
+									<td>
+										<ul style="list-style:none;">
+											<li style="list-style:none;">
+											<label for="Lugares">Tipos de marihuana:</label><br>
+											<label for="Indica"><input name="Indica" type="radio" id="Indica">Indica</label>
+											<label for="Sativa"><input name="Sativa" type="radio" id="Sativa">Indica</label>
+											<label for="Hibrida"><input name="Hibrida" type="radio" id="Hibrida">Hibrida</label><br><br>
+											
+												
+											<label for="Lugares">Lugares donde conseguir marihuana:</label><br>
+											<label for="Grow"><input type="checkbox" name="casilla2" id="Grow">Grow</label>
+											<label for="Camellos"><input type="checkbox" name="casilla2" id="Camellos">Camellos</label><br><br>
+												
+											<label for="Efectos">Efectos secundarios:</label><br>
+											<label for="Mas-menos"><input type="range" name="casilla2" id="Mas-menos"></label><br>
+											
+											<label for="Raza">Raza de marihuanas:</label><br>
+											<select id="Razademarihuana">
+												<option value="Skunk">Skunk</option>
+												<option value="Master Kush">Master Kush</option>
+												<option value="Black Widow">Black Widow</option>
+												<option value="Blueberry">Blueberry</option>
+												<option value="Neville’s haze">Neville’s haze</option>
+												<option value="Ak-47 ">Ak-47 </option>
+											</select><br><br>
+											
+											<label for="Objeciones">Objeciones:</label><br>
+											
+											<textarea name="textarea" rows="10" cols="50">Write something here</textarea><br>
+											<label for="Color">Color de la bolsa:</label><br>
+											<input type="color" value="#ff0000">
+											</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+						<input type="submit" value="Enviar Solicitud">
+					</form>
+				</main>
+			</body>
+	</html>
